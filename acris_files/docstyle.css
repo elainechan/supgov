@@ -1,0 +1,172 @@
+<!--
+ js\docstyle.css 
+-->
+<style type="text/css">
+<!--
+.LinkDecoration:link {
+	COLOR: #000033; FONT-STYLE: normal; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.LinkDecoration:visited {
+	COLOR: #000000; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.LinkDecoration:active {
+	COLOR: #000000; FONT-STYLE: normal; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.LinkDecoration:hover {
+	BACKGROUND-COLOR: #CCCCCC; COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+
+ .BGImage {  background-attachment: fixed; background-image: url(/DS/Content/images/cityseal.gif); background-repeat: no-repeat; background-position: center center; background-color: #FFFFFF}
+
+ .uppernormal {background-color: white;text-transform: uppercase;}
+ .upperaccessible  {background-color: yellow;text-transform: uppercase;}
+ .normal {background-color: white;}
+ .accessible {background-color: yellow;}
+ .rightnormal {background-color: white;text-align: right}
+ .rightaccessible {background-color: yellow;text-align: right}
+ .labelactive { color: black; font-weight: bold; font-family: "Arial"; font-style: normal; }
+ .labelinactive { color: #545454; font-weight: normal; font-family: "Arial"; font-style: italic; }
+ .linkfocussed  { color: black; font-weight: bold; font-family: "Arial"; font-style: normal; font-size: 12pt }
+ .linkunfocussed  { color: black; font-weight: normal; font-family: "Arial"; font-style: normal; font-size: 10pt }
+ .req_active { color: red; font-weight: bold; font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-size: 12pt; visibility: visible; align: center}
+ .req_inactive { color: red; font-weight: normal; font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-size: 10pt; visibility: hidden;}
+ .req_labelactive { color: red; font-weight: bold; font-family: "Arial, Helvetica, sans-serif"; font-style: normal; font-size: 8pt; visibility: visible;}
+ .req_labelinactive { color: red; font-weight: normal; font-family: "Arial, Helvetica, sans-serif"; font-style: normal; font-size: 8pt; visibility: hidden;}
+ 
+ .OLouter { margin-left: 0.4in; }
+ .OLalpha { list-style-type: lower-alpha;  margin-left: 0.25in; }
+ .normal {background-color: white;}
+ .instru { color: black; font-weight: normal; font-family: "Arial, Helvetica, sans-serif"; font-style: normal; font-size: 10pt; }
+
+ .helpbuttonstyle
+        { 
+            background-color :#3333aa; padding: 1px; width: 130px ; 
+            height: 19px; border: 0 outset White; color: White; 
+            font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; 
+            font-size : 10pt; 
+        } 
+  .buttonstyle
+        { 
+            background-color :#333399; padding: 1px; width: 133px ; 
+            height: 20px ; border: 0 outset White; color: White; 
+            font-weight:bold; font-family: Arial; 
+            font-style: normal; font-size: 9pt; border-style :outset; 
+            border: 1px solid; border-color: #aaa #000 #000 #aaa;
+        }
+   .addresslookupbuttonstyle
+        { 
+            background-color :#333399; padding: 1px; width: 216px ; 
+            height: 20px ; border: 0 outset White; color: White; 
+            font-weight: bold; font-family: Arial; 
+            font-style: normal; font-size: 9pt; border-style :outset; 
+            border: 1px solid; border-color: #aaa #000 #000 #aaa;
+        }
+     .pagetitle
+        {
+            height: 52px; border: 0 outset White; 
+            font-weight:bolder; font-family: Arial; 
+            font-style: normal; font-size: 26pt;
+            color: #3300CC;
+        }
+    
+    .addresslookuptitle
+        {
+            height: 36px; border: 0 outset White;
+            font-weight:bolder; font-family: Arial;
+            font-style: normal; font-size: 12pt;
+            color: #483D8B;
+        }
+        
+    .addressparcellookuptitle
+        {
+            height: 36px; border: 0 outset White; color: White;
+            font-weight:bolder; font-family: Arial;
+            font-style: normal; font-size: 12pt;
+            color: #000000;
+        }
+        
+     .printpagetitle
+        {
+            border: 0 outset White; color: White; 
+            font-weight:bolder; font-family: Arial; 
+            font-style: normal; font-size: 26pt;
+            color: #3300CC;
+        }
+        
+     .homebackbutton
+        {
+            background-color :#3333aa; padding: 1px; width: 80px ; 
+            height: 24px ; border: 0 outset White; color: White; 
+            font-weight:bold; font-family: Arial; 
+            font-style: normal; font-size: 7pt; border-style :outset; 
+            border: 1px solid;
+        }
+        
+    .onmouseover
+        {
+            background-color :#9999CC; padding: 1px; width: 133px ; 
+            height: 20px ; border: 0 outset White; color: Black; 
+            font-weight:bold; font-family: Arial; 
+            font-style: normal; font-size: 9pt; border-style :outset; 
+            border: 1px solid; border-color: #aaa #000 #000 #aaa;
+        }
+        
+    .addresslookuponmouseover
+        { 
+            background-color :#9999CC; padding: 1px; width: 216px ; 
+            height: 20px ; border: 0 outset White; color: Black; 
+            font-weight: bold; font-family: Arial; 
+            font-style: normal; font-size: 9pt; border-style :outset; 
+            border: 1px solid; border-color: #aaa #000 #000 #aaa;
+        }
+        
+   .detailandimagebutton
+        { 
+            background-color :#CCCCCC;
+            width: 36px; 
+            vertical-align:middle;                     
+            height: 19px; 
+            text-align : center;                       
+            font-size: 9pt;            
+        }
+        
+   .modifydeletebutton
+        { 
+            background-color: #B2B2B2; padding: 1px; width: 45; height: 24;
+            border: 1 ridge White; color: black; font-weight: bold;
+            font-style: normal; font-size: 7pt; text-align : center; margin:0 7px 0 0;
+        }  
+        
+        .editbuttonstyle
+        { 
+            background-color :#B2B2B2; padding: 1px; width: 45px ; font-family: Arial;
+            height: 24px ; border: 1 outset White; color: black; font-weight: bold;
+            font-style: normal; font-size: 7pt; text-align : center; margin:0 7px 0 0;
+            cursor: pointer; cursor: hand;
+        } 
+        
+        .deletebuttonstyle
+        { 
+            background-color :#B2B2B2; padding: 1px; width: 45px ; font-family: Arial;
+            height: 24px ; border: 1 outset White; color: black; font-weight: bold;
+            font-style: normal; font-size: 7pt; text-align : center; margin:0 7px 0 0;
+            cursor: pointer; cursor: hand;
+        } 
+        
+        .mouseoverdeletebuttonstyle
+        { 
+            background-color :#B2B2B2; padding: 1px; width: 45px ; font-family: Arial;
+            height: 24px ; border: 1 outset White; color: #4E4E4E; font-weight: bold;
+            font-style: normal; font-size: 7pt; text-align : center; margin:0 7px 0 0;
+            cursor: pointer; cursor: hand;
+        } 
+        
+        .mouseovereditbuttonstyle
+        { 
+            background-color :#B2B2B2; padding: 1px; width: 45px ; font-family: Arial;
+            height: 24px ; border: 1 outset White; color: #4E4E4E; font-weight: bold;
+            font-style: normal; font-size: 7pt; text-align : center; margin:0 7px 0 0;
+            cursor: pointer; cursor: hand;
+        } 
+        -->
+</style>
